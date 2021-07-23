@@ -1,0 +1,25 @@
+h1 {
+    border: groove 1px red;
+    font-style: oblique;
+    font-variant: small-caps;
+    background-color: skyblue;
+    color: gold;
+}
+
+i {
+    color: green;
+}
+
+h2 {
+    color: teal;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color: rgb(0, 77, 51);
+    font-variant: initial
+}
+
+a {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
