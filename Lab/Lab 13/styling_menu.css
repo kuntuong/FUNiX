@@ -1,0 +1,27 @@
+nav a {
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 45px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #486B02;
+    text-decoration: none;
+    margin: 1% 2% 1% 8%;
+    padding: 1% 2%;
+    border-radius: 15px;
+}
+
+@media all and (min-width:900px) {
+    nav a {
+        box-sizing: border-box;
+        display: block;
+        line-height: 45px;
+        height: 60px;
+        color: #FFFFFF;
+        background-color: #486B02;
+        text-decoration: none;
+        margin: 1% 2% 1% 8%;
+        padding: 1% 2%;
+        border-radius: 15px;
+    }
+}
