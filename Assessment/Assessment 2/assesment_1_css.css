@@ -1,0 +1,86 @@
+header h1 {
+    color: rgb(77, 0, 0);
+    text-align: center;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(102, 217, 255);
+    font-size: 50px
+}
+
+h2 {
+    color: rgb(0, 146, 122);
+    text-align: justify;
+    font-variant: small-caps;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body p {
+    color: rgb(0, 93, 20);
+    text-align: justify;
+    font-family: Arial, sans-serif;
+}
+
+tr:nth-child(odd) {
+    background-image: url("gold-luxury-background-with-brown-lines_23-2148608676.jpeg");
+    color: whitesmoke
+}
+
+tr:nth-child(even) {
+    background-image: url("white-background.jpeg");
+    color: rgb(121, 88, 0)
+}
+
+table {
+    border: 1px solid #161b2279;
+    border-radius: 0px 0px 30px 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 30px;
+    table-layout: inherit;
+    overflow: hidden;
+}
+
+body caption {
+    border: 1px solid #161b2279;
+    border-radius: 30px 30px 0px 0px;
+    background-image: url("black_background.png");
+    color: white;
+    font-weight: bold;
+}
+
+figcaption {
+    text-align: left;
+    color: forestgreen;
+    text-decoration: greenyellow;
+}
+
+nav a:link {
+    text-align: center;
+    display: inline-block;
+    border-radius: 20px;
+    color: mediumblue;
+    background-color: rgb(204, 230, 255);
+    margin: 5px 10px 5px 10px;
+    padding: 20px 40px;
+}
+
+nav a:hover {
+    text-align: center;
+    display: inline-block;
+    border-radius: 0px;
+    color: rgb(0, 88, 7);
+    background-color: rgb(255, 192, 74);
+}
+
+nav a:focus {
+    text-align: center;
+    display: inline-block;
+    border-radius: 0px;
+    color: rgb(0, 88, 7);
+    background-color: rgb(255, 192, 74);
+}
+
+nav {
+    text-align: center;
+    text-decoration: none;
+}
